@@ -1,0 +1,14 @@
+注意到了吗？
+
+mini game (puzzle)用了更多加密的技术。
+从用户的角度，游戏通关后，它会得到一个cipher(每天一个固定的，所有用户都一样)
+
+lastCipher = window.btoa(cipher + "|" + "你的telegramID")
+再得到最终的cipher后，分别调用postStartDailyKeysMiniGame（开启游戏）、postClaimDailyKeysMiniGame（提交cipher）就能得到金币。
+
+cipher分别是：
+7.20 0096918748
+7.21 0953217383
+
+# 谁研究了他们的代码，交流一下。
+> 我还没找到最终答案。
