@@ -6,4 +6,5 @@ step by step: https://service.24-cm.com/hamster-kombat
 
 
 # mini game puzzle
-> 已支持自动玩puzzle
+> supported auto play puzzle.
+> more exactly, it is the automatic completion of the game.
